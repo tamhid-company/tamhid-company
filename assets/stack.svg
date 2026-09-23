@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="110" viewBox="0 0 1000 110">
+  <style>
+    .card{animation:fl 3s ease-in-out infinite}
+    .card:nth-child(2){animation-delay:.3s}.card:nth-child(3){animation-delay:.6s}.card:nth-child(4){animation-delay:.9s}
+    .card:nth-child(5){animation-delay:1.2s}.card:nth-child(6){animation-delay:1.5s}.card:nth-child(7){animation-delay:1.8s}
+    @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    text{font-family:Segoe UI,Inter,Arial,sans-serif;font-weight:700;font-size:15px;fill:#e0f2fe;text-anchor:middle}
+    .b{animation:bd 4s ease-in-out infinite}
+    @keyframes bd{0%,100%{stroke:#0ea5e9}50%{stroke:#7dd3fc}}
+  </style>
+  <g class="card"><rect class="b" x="20" y="25" width="120" height="60" rx="14" fill="#0c2a5b" stroke-width="2"/><text x="80" y="60">Python</text></g>
+  <g class="card"><rect class="b" x="160" y="25" width="120" height="60" rx="14" fill="#0c2a5b" stroke-width="2"/><text x="220" y="60">Django</text></g>
+  <g class="card"><rect class="b" x="300" y="25" width="120" height="60" rx="14" fill="#0c2a5b" stroke-width="2"/><text x="360" y="60">TypeScript</text></g>
+  <g class="card"><rect class="b" x="440" y="25" width="120" height="60" rx="14" fill="#0c2a5b" stroke-width="2"/><text x="500" y="60">React</text></g>
+  <g class="card"><rect class="b" x="580" y="25" width="120" height="60" rx="14" fill="#0c2a5b" stroke-width="2"/><text x="640" y="60">Node.js</text></g>
+  <g class="card"><rect class="b" x="720" y="25" width="120" height="60" rx="14" fill="#0c2a5b" stroke-width="2"/><text x="780" y="60">PostgreSQL</text></g>
+  <g class="card"><rect class="b" x="860" y="25" width="120" height="60" rx="14" fill="#0c2a5b" stroke-width="2"/><text x="920" y="60">AI / LLM</text></g>
+</svg>
